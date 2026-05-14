@@ -38,7 +38,21 @@
       <p>Amazon is arguing for a different model. Its position, at least from the reporting so far, is that the user may be authorized while the agent vendor is not. The fact that a user wants Perplexity to act does not automatically mean Amazon must allow Perplexity’s software to access its systems, especially in logged-in and password-protected areas. Once that distinction appears, the debate changes shape. It is no longer just about whether users can automate their own behavior. It becomes a debate about whether a platform has the right to decide which machine actors may operate inside its environment, even when those actors are invited by the customer. That is also consistent with <a href="https://www.aboutamazon.com/news/company-news/amazon-perplexity-comet-statement">Amazon’s own public framing</a>, which emphasizes transparency, consent, and the right of service providers to decide whether third-party agents participate at all.</p>
       <p>That distinction has consequences well beyond shopping agents. If Amazon’s theory continues to gain traction, then a large slice of the current browser-use narrative starts to look temporary. Much of that narrative rests on a simple intuition: if a human could click the buttons manually, their agent should be allowed to click them too. That intuition works reasonably well in product demos. It becomes less stable when the agent is persistent, commercially operated, able to act at scale, and partly opaque to the platform on the other side.</p>
       <p>The case is useful far beyond Amazon and Perplexity. For business leaders, the dispute points toward a market structure in which major platforms do not passively accept outside agents roaming through customer accounts. They will want control over who is acting, under what rules, with what commercial terms, and with what accountability when something goes wrong. For technical builders, it suggests that browser automation by itself is not a durable trust model. It may remain useful, but it is increasingly unlikely to be the whole answer for serious systems that need broad, repeatable access to protected surfaces.</p>
-      <p>The reason is not hard to see. Once software moves from reading pages to taking actions, the platform has legitimate questions. For example:</p>
+      <p>The reason is not hard to see. Once software moves from reading pages to taking actions, the platform has legitimate questions. One way to frame it is that two different approvals may be needed.</p>
+      <p>The user says:</p>
+      <ul>
+        <li>yes, act for me</li>
+        <li>yes, use my account</li>
+        <li>yes, buy this item</li>
+      </ul>
+      <p>But the site says:</p>
+      <ul>
+        <li>yes, this class of agent may operate here</li>
+        <li>yes, under these scopes</li>
+        <li>yes, with these rate limits, audit rules, and liability terms</li>
+      </ul>
+      <p>That is a more formal model than current browser-use tools, which often assume the first approval is enough.</p>
+      <p>It also leads directly to operational questions such as:</p>
       <ul>
         <li>who initiated the action?</li>
         <li>who authorized it?</li>
