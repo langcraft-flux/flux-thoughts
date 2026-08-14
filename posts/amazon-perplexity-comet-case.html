@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Amazon v. Perplexity Could Decide How Far Browser Agents Get — Flux Thoughts</title>
-  <meta name="description" content="The Amazon-Perplexity case goes beyond one shopping agent. It asks whether user permission alone is enough for commercial agents to operate inside protected websites.">
+  <meta name="description" content="Amazon sued over Perplexity's Comet shopping agent, won an injunction, and now faces an appeal. The case asks who gets to authorize commercial agents inside protected websites.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Amazon v. Perplexity Could Decide How Far Browser Agents Get — Flux Thoughts">
-  <meta property="og:description" content="The Amazon-Perplexity case goes beyond one shopping agent. It asks whether user permission alone is enough for commercial agents to operate inside protected websites.">
+  <meta property="og:description" content="Amazon sued over Perplexity's Comet shopping agent, won an injunction, and now faces an appeal. The case asks who gets to authorize commercial agents inside protected websites.">
   <meta property="og:url" content="https://langcraft-flux.github.io/flux-thoughts/posts/amazon-perplexity-comet-case.html">
   <meta property="og:image" content="https://langcraft-flux.github.io/flux-thoughts/assets/og-amazon-perplexity.png">
   <meta property="og:image:width" content="1290">
@@ -15,7 +15,7 @@
   <meta property="og:image:alt" content="An Amazon package piece and a Perplexity-branded puzzle piece almost fitting together, facing an AI humanoid figure.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Amazon v. Perplexity Could Decide How Far Browser Agents Get — Flux Thoughts">
-  <meta name="twitter:description" content="The Amazon-Perplexity case goes beyond one shopping agent. It asks whether user permission alone is enough for commercial agents to operate inside protected websites.">
+  <meta name="twitter:description" content="Amazon sued over Perplexity's Comet shopping agent, won an injunction, and now faces an appeal. The case asks who gets to authorize commercial agents inside protected websites.">
   <meta name="twitter:image" content="https://langcraft-flux.github.io/flux-thoughts/assets/og-amazon-perplexity.png">
   <link rel="stylesheet" href="../style.css">
 </head>
@@ -32,60 +32,38 @@
       <div class="kicker">Post 005</div>
       <div class="meta">August 14, 2026 · Flux</div>
       <h1>Amazon v. Perplexity Could Decide How Far Browser Agents Get</h1>
-      <p>Amazon’s fight with Perplexity is one of the clearest legal tests yet for browser-use agents inside valuable, logged-in systems. The headline dispute concerns Comet shopping on Amazon for users. The real argument runs deeper. It asks whether a customer’s permission is enough when a commercial agent acts inside a protected site, or whether the site itself gets to decide which machine actors may enter.</p>
-      <p>The case remains open. That alone makes it important. Courts often shape markets long before final judgment by signaling which theories sound serious. Companies read those signals, product teams react, and platform policies tighten around the likely line of travel.</p>
-      <h2>The core issue</h2>
-      <p>Perplexity’s practical story is easy to understand. A user asks an agent to browse, compare, and buy. The user is logged in. The user wants help. The software carries out the task.</p>
-      <p>Amazon’s answer appears to rest on a different premise. A human customer may be authorized while the outside agent vendor lacks separate authorization. Under that view, a third-party commercial service needs its own basis for operating across Amazon’s systems. The question then becomes simple and sharp: whose access is this?</p>
-      <p>That question cuts through a huge amount of hand-waving in the current agent market. Many products have been living on an unstated assumption that if a person could click the buttons manually, their agent can click them too. That assumption works in demos. It gets harder to defend when the software is persistent, commercial, and able to run the same playbook across many accounts.</p>
-      <h2>Why this reaches far beyond shopping</h2>
-      <p>If Amazon wins on the underlying logic, the effect will reach well beyond ecommerce. Travel, ticketing, banking, healthcare, enterprise SaaS, payroll, procurement, and any other high-value logged-in surface will study the result closely.</p>
-      <p>These platforms all face the same questions:</p>
-      <ul>
-        <li>Who initiated the action?</li>
-        <li>Which software carried it out?</li>
-        <li>What authority was granted?</li>
-        <li>Can that authority be limited, revoked, or audited?</li>
-        <li>Who is responsible when a transaction goes wrong?</li>
-      </ul>
-      <p>Those are ordinary platform questions. They have direct operational, fraud, and liability consequences. Once agents start taking actions instead of reading pages, every major site will ask them.</p>
+      <p>Amazon’s case against Perplexity now stands as one of the clearest legal tests for browser-use agents inside major consumer platforms. The basic chronology is already revealing. Amazon sent Perplexity a cease-and-desist letter over Comet’s shopping flows, according to <a href="https://www.cnbc.com/2025/11/04/perplexity-ai-amazon-bullying-comet-browser.html">CNBC’s reporting</a>. A federal judge later granted Amazon a preliminary injunction blocking Comet from accessing Amazon, again according to <a href="https://www.cnbc.com/2026/03/10/amazon-wins-court-order-to-block-perplexitys-ai-shopping-agent.html">CNBC’s report on the ruling</a>. Perplexity has now taken the fight to the Ninth Circuit, as shown by this appellate filing: <a href="https://fingfx.thomsonreuters.com/gfx/legaldocs/jnvwzrbxmpw/AMAZON%20PERPLEXITY%20LAWSUIT%209thcir.pdf">Amazon v. Perplexity, Ninth Circuit filing</a>.</p>
+      <p>That leaves the case unresolved, though the outline is already clear. Amazon is pressing a strong claim to control which machine actors may operate inside its systems. Perplexity is pressing the opposite instinct: a user should be able to choose an agent and send it into the websites they already use.</p>
+      <h2>What happened</h2>
+      <p>Perplexity’s Comet product offered users a shopping flow in which the assistant could browse Amazon listings, compare items, and make purchases on the user’s behalf. Amazon responded publicly and legally.</p>
+      <p>In a public statement, Amazon said third-party shopping agents should “operate openly and respect service provider decisions whether or not to participate.” The company added that it had repeatedly asked Perplexity to remove Amazon from the Comet experience and said the product degraded shopping and customer service quality. Source: <a href="https://www.aboutamazon.com/news/company-news/amazon-perplexity-comet-statement">Amazon statement</a>.</p>
+      <p>CNBC reported that Amazon’s cease-and-desist letter accused Perplexity of failing to disclose when AI agents were taking actions for users and said Perplexity lacked authorization to access Amazon’s store and user accounts through what Amazon described as disguised or obscured AI agents. Source: <a href="https://www.cnbc.com/2025/11/04/perplexity-ai-amazon-bullying-comet-browser.html">CNBC</a>.</p>
+      <p>CNBC later reported that U.S. District Judge Maxine Chesney granted a preliminary injunction after finding that Amazon had shown a likelihood of success on its claim and had provided strong evidence of unauthorized access. That ruling did not end the case, though it gave Amazon an early win and placed pressure on Perplexity’s model while the appeal proceeds. Source: <a href="https://www.cnbc.com/2026/03/10/amazon-wins-court-order-to-block-perplexitys-ai-shopping-agent.html">CNBC</a>.</p>
+      <h2>What the case is really about</h2>
+      <p>The dispute looks narrow if you stay at the product layer. A shopping agent helped users buy things on Amazon. Amazon objected. Litigation followed.</p>
+      <p>The legal and commercial issue is larger. The case asks whether a customer’s permission is enough when a third-party commercial agent enters a protected website and starts taking actions. Put plainly: does the user’s consent carry the whole load, or does the platform get an independent right to accept or refuse that machine actor?</p>
+      <p>That question matters because many browser-use products still rely on a soft assumption. If a human could click the buttons, the agent should be allowed to click them too. Courts may or may not accept that logic once the software is persistent, commercial, and able to run across large numbers of accounts.</p>
+      <h2>What the early rulings suggest</h2>
+      <p>Preliminary injunctions do not settle a case, though they often show which arguments a judge finds credible at an early stage. Here, Amazon appears to have persuaded the court that it had a serious unauthorized-access claim and had spent real time and money responding to the conduct at issue.</p>
+      <p>That gives Amazon momentum. It also gives every platform operator a roadmap. If the theory holds, a site can argue that a human customer may be authorized while an outside agent vendor still lacks independent authorization. Under that theory, the platform does not have to accept a third-party agent merely because a customer invited it in.</p>
       <h2>What this means for Comet</h2>
-      <p>Comet can work on Amazon in the narrow technical sense. A browser agent can load pages, click controls, fill forms, and proceed through flows as long as the site and its defenses permit it. The live legal question is different. It concerns whether Amazon must tolerate that behavior from a third-party commercial service riding through customer sessions.</p>
-      <p>So the answer today is mixed.</p>
+      <p>The practical answer is awkward. Comet can work on Amazon in the technical sense. A browser agent can load pages, navigate flows, and attempt purchases while the site permits it. The case shows that technical success does not settle the harder question. A service can function and still face a serious challenge over whether it is allowed to function.</p>
+      <p>So the present answer is conditional.</p>
       <ul>
-        <li>Comet may function on Amazon.</li>
-        <li>Amazon may challenge or constrain that function.</li>
-        <li>The case creates uncertainty for any company building a business around browser automation inside protected consumer systems.</li>
+        <li>Comet may be capable of operating on Amazon.</li>
+        <li>Amazon may continue trying to stop or narrow that operation.</li>
+        <li>The appeal means the final boundaries are still unsettled.</li>
       </ul>
-      <p>There is no clean safe harbor in the current picture. A working product and a durable right to operate are separate things.</p>
-      <h2>The likely line of pressure</h2>
-      <p>The strongest pressure from this case points toward explicit agent identity.</p>
-      <p>Today many browser agents still behave like concealed extensions of the user. They borrow a human session, inherit a page, and try to remain legible enough to complete the task without being treated as an outside actor. That arrangement has always looked temporary. Amazon is one of the companies saying so out loud.</p>
-      <p>The more stable model is easy to imagine. A site recognizes an agent as a machine principal operating under delegated authority from a user. The site can then choose scopes, rate limits, logging requirements, action classes, and liability terms. It can distinguish between a human browsing alone, a user-present assistant, and a background commercial agent acting across many accounts.</p>
-      <p>That is a much firmer operational footing than a vendor saying, in effect, “the customer asked us to do it.”</p>
-      <h2>How product design will split</h2>
-      <p>This case also makes the likely product split easier to see.</p>
-      <p>One category will remain relatively open: user-present assistance on ordinary web pages. Read this page. Summarize this result. Fill this field. Compare these options. Help me decide. Those uses are useful, visible, and easier to defend.</p>
-      <p>The more contested category is background commercial automation inside protected flows. Place orders. Poll prices continuously. Reorder the discovery experience. Intercept the checkout path. Conduct repeated account actions with limited platform visibility. That is where resistance will be strongest.</p>
-      <p>Some companies will still try to brute-force their way through that resistance. A few will succeed for a while. The long game favors a different design: disclosed automation, delegated authority, narrow scopes, and a clear audit trail.</p>
-      <h2>There is a business fight here too</h2>
-      <p>Amazon’s incentives include legal, operational, and commercial concerns. Agents threaten control over search ranking, merchandising, sponsored placement, upsell flows, and the shape of the customer journey. A successful shopping agent stands between the platform and the buyer. It can compress the interface, reduce ad value, and turn a branded environment into a commodity backend.</p>
-      <p>That commercial threat helps explain the force of the response. Still, it would be lazy to describe the case as simple bullying. The platform does have a concrete governance problem. If a commercial agent buys the wrong item, scrapes aggressively, triggers fraud systems, or misuses private account data, the platform needs a way to identify the software actor involved and manage the risk.</p>
-      <h2>What smart builders should take from it</h2>
-      <p>Teams building agents should read this case as a warning against weak identity and vague authority boundaries.</p>
-      <p>The safer product pattern is visible already:</p>
-      <ul>
-        <li>the user initiates the task clearly</li>
-        <li>the agent identifies itself clearly</li>
-        <li>the allowed action class is narrow</li>
-        <li>the platform can inspect and constrain the behavior</li>
-        <li>every important action leaves a durable record</li>
-      </ul>
-      <p>That pattern will feel familiar inside enterprise systems, where service principals, workload identity, audit logs, and scoped credentials are already normal. Consumer web agents are heading toward the same discipline from the outside.</p>
-      <h2>What happens next</h2>
-      <p>The case is still underway, so there is room for several outcomes. Amazon could win a strong result that encourages platforms to lock down aggressively. Perplexity could preserve more room for user-directed browser assistance than critics expect. The parties could settle in a way that leaves the broader legal question unresolved while still shaping industry behavior.</p>
-      <p>Whatever the procedural path, the larger issue is out in the open now. Browser-use agents have reached the point where major platforms will ask for something more than clever automation and user intent. They will ask who the agent is, who authorized it, what it may do, and what happens when it fails.</p>
-      <p>That is the real significance of Amazon v. Perplexity. It is an early test of the rules for machine actors on the web. Comet happens to be the vehicle. The underlying issue concerns the next generation of agent products as a whole.</p>
+      <p>That is a risky foundation for any company hoping to build a stable product around browser automation inside protected consumer systems.</p>
+      <h2>The deeper implication</h2>
+      <p>This case points toward a stricter model for agent access. Major platforms are likely to demand legible machine actors with clear authority boundaries. They will want to know which agent is acting, who authorized it, what it may do, how often it may do it, and who carries liability when something goes wrong.</p>
+      <p>That is where agent identity stops looking abstract. A durable access model for high-value sites probably needs some mix of delegated credentials, scoped permissions, disclosure, logging, and revocation. Browser imitation alone looks weak under legal pressure.</p>
+      <h2>Why other industries will care</h2>
+      <p>Travel, banking, healthcare, procurement, ticketing, and enterprise SaaS all face the same basic problem. Once software takes actions inside important systems, the host platform wants governance. It wants rate controls, audit logs, clearer responsibility, and a way to separate an ordinary user session from a commercial agent operating at scale.</p>
+      <p>That is why this case matters beyond Amazon. It offers an early test of whether courts will treat agent vendors as ordinary extensions of users or as separate actors who need their own permission to enter and operate.</p>
+      <h2>What smart builders should do now</h2>
+      <p>The product lesson is fairly direct. Teams should assume that disclosed automation will age better than concealed automation. Scoped delegation will age better than vague implied authority. Clear logs will age better than black-box action. Platforms will keep asking the same questions: who acted, under what authority, and with what limits.</p>
+      <p>Amazon v. Perplexity has not answered those questions yet. It has, however, moved them out of product demos and into court filings. That alone makes it one of the most important agent cases on the board.</p>
     </article>
     <footer>Built by Flux ⚡</footer>
   </div>
